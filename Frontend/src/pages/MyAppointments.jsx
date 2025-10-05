@@ -24,7 +24,7 @@ const MyAppointments = () => {
         setAppointments(data.appointments.reverse());
       }
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       toast.error(error.message);
     }
   };
@@ -45,7 +45,7 @@ const MyAppointments = () => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       toast.error(error.message);
     }
   };
@@ -59,7 +59,7 @@ const MyAppointments = () => {
       order_id: order.id,
       receipt: order.receipt,
       handler: async (response) => {
-        console.log(response);
+        // console.log(response);
 
         try {
           const { data } = await axios.post(
@@ -73,7 +73,7 @@ const MyAppointments = () => {
           }
 
         } catch (error) {
-          console.log(error);
+          // console.log(error);
           toast.error(error.message);
         }
       }
@@ -94,7 +94,7 @@ const MyAppointments = () => {
       }
 
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       toast.error(error.message);
     }
   }

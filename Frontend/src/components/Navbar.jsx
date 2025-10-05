@@ -66,7 +66,7 @@ const Navbar = () => {
                     (window.location.href =
                         "https://doctor-appointment-booking-system1.netlify.app/")
                     }
-                    className="bg-blue-600 text-white px-4 py-1 rounded-full font-light hidden md:block"
+                    className="bg-blue-600 text-white px-8 py-3 rounded-full font-light hidden md:block"
                 >
                     Admin Login
                 </button>

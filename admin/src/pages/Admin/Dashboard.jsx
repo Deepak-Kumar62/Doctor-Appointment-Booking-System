@@ -13,7 +13,7 @@ const Dashboard = () => {
         }
     }, [aToken]);
 
-    console.log(DashboardData);
+    // console.log(DashboardData);
 
     return DashboardData && (
         <div className='w-full max-w-6xl m-5'>

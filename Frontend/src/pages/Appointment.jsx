@@ -102,7 +102,7 @@ const Appointment = () => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       if (error.response && error.response.data) {
         toast.error(error.response.data.message || "Something went wrong");
       } else {
@@ -120,7 +120,7 @@ const Appointment = () => {
   }, [docInfo]);
 
   useEffect(() => {
-    console.log(docSlots);
+    // console.log(docSlots);
   }, [docSlots]);
 
   return (

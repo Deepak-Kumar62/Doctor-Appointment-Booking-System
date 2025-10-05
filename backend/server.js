@@ -32,11 +32,11 @@ app.use("/api/doctor", doctorRouter);
 connectDB()
   .then(() => {
     app.listen(PORT, () => {
-      console.log(`Server is running on port ${PORT}`);
+      // console.log(`Server is running on port ${PORT}`);
     });
   })
   .catch((err) => {
-    console.log(err.message);
+    // console.log(err.message);
   });
 
 connectCloudinary();
