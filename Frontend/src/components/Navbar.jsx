@@ -64,7 +64,7 @@ const Navbar = () => {
                 <button
                     onClick={() =>
                     (window.location.href =
-                        "http://localhost:5174/")
+                        "https://doctor-appointment-booking-system1.netlify.app/")
                     }
                     className="bg-blue-600 text-white px-4 py-1 rounded-full font-light hidden md:block"
                 >
