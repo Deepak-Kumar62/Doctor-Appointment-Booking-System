@@ -10,7 +10,17 @@ import doctorRouter from "./routes/doctor.route.js";
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://doctor-appointment-booking-system3.netlify.app",
+      "https://doctor-appointment-booking-system1.netlify.app",
+    ],
+    credentials: true,
+  })
+);
+
+
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
