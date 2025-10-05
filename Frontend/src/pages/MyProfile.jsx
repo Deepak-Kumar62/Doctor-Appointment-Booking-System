@@ -218,7 +218,6 @@ const MyProfile = () => {
             )}
           </div>
         </div>
-        <Footer />
       </>
     )
   );
